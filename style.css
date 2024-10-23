@@ -1,70 +1,70 @@
-html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
+html /* this tells the rest to define*/ {
+  height: 100%;/*this tells the height*/
+  width: 100%;/*this tells the height*/
+  background-color: lightblue;/*this tells the background color*/
 }
 
-h2 {
-  text-align: center;
+h2 /* heading*/ {
+  text-align: center;/* tells text to center */ 
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
 nav {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
+  background-color: white; /* background will be white */ 
+  color: black;/* font color is black*/ 
+  padding: 5px;/* width of each line in nav is 5 pixels */ 
+  text-align: center;/* centers text*/ 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: navy;
+ul/* starts bulleted list */  {
+  list-style-type: none;/*no style type*/ 
+  margin: 0;/* no margin*/ 
+  padding: 0;/* no space*/ 
+  overflow: hidden;/* will not show overflow*/ 
+  background-color: navy;/* the bcakground will be navy*/ 
 }
 
-li {
-  float: left;
+li/* this tells the rest to define items in list*/  {
+  float: left;/*tells it to go to the left*/ 
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a/* anchor tag*/ {
+  display: block;/*shows a block*/ 
+  color: white;/*color of block is white*/ 
+  text-align: center;/*text in block centers*/ 
+  padding: 14px 16px;/*generates the  space */ 
+  text-decoration: none;/*no decoration*/ 
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
-.city1 {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
+.city1 {/* first city*/ 
+  background-color: tomato;/* background color*/ 
+  color: white; /*font color is white*/
+  padding: 10px;/* space created*/
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
-.city2 {
-  background-color: lightsalmon;
-  color: white;
-  padding: 10px;
+.city2 {/*second city*/
+  background-color: lightsalmon;/*background color*/
+  color: white;/*font color is white*/
+  padding: 10px;/* space created*/
 } 
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-  border: solid 5px;
+img {/* image*/
+  display: block;/* shows block*/
+  margin-left: auto;/* margin on the left*/
+  margin-right: auto;/* margin on the right*/
+  width: 50%;/* creats width*/
+  height: auto;/* height is auto*/
+  border: solid 5px;/* border is 5 pixels*/
 }
 
-.image1 {
-  border-color: white;
-  padding: 5px;
+.image1 {/* image 1*/
+  border-color: white;/* border color is white */
+  padding: 5px;/* space created*/
 }
 
-.image2 {
-  border-color: white;
-  padding: 20px;
+.image2 {/*image 2*/
+  border-color: white;/*border is white */
+  padding: 20px;/*space created*/
 }
